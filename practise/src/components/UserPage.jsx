@@ -10,9 +10,9 @@ const UserPage = () => {
   };
 
   return (
-    <div>
+    <div className="container" >
       <h2>Welcome User</h2>
-      <button onClick={handleLogout}>Logout</button>
+      <button className="btn" onClick={handleLogout}>Logout</button>
     </div>
   );
 };

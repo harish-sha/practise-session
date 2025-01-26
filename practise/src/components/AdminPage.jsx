@@ -10,11 +10,14 @@ const AdminPage = () => {
   };
 
   return (
-    <div>
+    <div className="container" >
       <h2>Welcome Admin</h2>
-      <button onClick={handleLogout}>Logout</button>
+      <button className="btn" onClick={handleLogout}>Logout</button>
     </div>
   );
 };
 
 export default AdminPage;
+
+// eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18ycU9YUHBQZDhJVU00N3ZxOGtaS2xjcDhzWlQiLCJ0eXAiOiJKV1QifQ
+// eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18ycU9YUHBQZDhJVU00N3ZxOGtaS2xjcDhzWlQiLCJ0eXAiOiJKV1QifQ
